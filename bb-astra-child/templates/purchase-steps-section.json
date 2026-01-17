@@ -1,0 +1,51 @@
+{
+    "version": "0.4",
+    "title": "BB Purchase Steps Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "sec_purchase",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_purchase",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "w_purchase",
+                            "elType": "widget",
+                            "widgetType": "bb_purchase_steps",
+                            "settings": {
+                                "section_label": "Purchase",
+                                "title": "Buy BB Cigarettes Online in Canada",
+                                "text": "<p>Purchasing BB Cigarettes Online provides convenient access to the complete product range. Through authorized affiliate partners, Canadian customers can browse available variants, select preferred quantities, and complete secure transactions from any device.</p><p>Online ordering offers the advantage of home delivery, product variety visibility, and access to BB Full Flavor, BB Lights Cigarettes, and BB Menthol Cigarettes without visiting physical retail locations.</p>",
+                                "steps": [
+                                    {
+                                        "num": "1",
+                                        "text": "Select your preferred BB Cigarettes variant"
+                                    },
+                                    {
+                                        "num": "2",
+                                        "text": "Verify age and complete checkout"
+                                    },
+                                    {
+                                        "num": "3",
+                                        "text": "Receive delivery to your Canadian address"
+                                    }
+                                ],
+                                "btn_text": "Buy BB Cigarettes Online",
+                                "btn_link": {
+                                    "url": "https://1smokes.ca/bb-cigarettes/"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

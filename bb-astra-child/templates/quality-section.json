@@ -1,0 +1,51 @@
+{
+    "version": "0.4",
+    "title": "BB Quality Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "sec_quality",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_quality",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "w_quality",
+                            "elType": "widget",
+                            "widgetType": "bb_quality",
+                            "settings": {
+                                "section_label": "Craftsmanship",
+                                "title": "Premium Quality & Tobacco Blend",
+                                "desc": "Every BB Cigarette begins with the <strong>highest quality ingredients</strong>. The <strong>robust tobacco blend</strong> combines carefully selected leaves to create a profile that balances strength with smoothness.",
+                                "items": [
+                                    {
+                                        "text": "<strong>Smooth Inhalation:</strong> Engineered airflow for effortless draw"
+                                    },
+                                    {
+                                        "text": "<strong>Rich Flavour Delivery:</strong> Full-bodied taste from start to finish"
+                                    },
+                                    {
+                                        "text": "<strong>Consistent Burn:</strong> Even combustion throughout each cigarette"
+                                    },
+                                    {
+                                        "text": "<strong>Quality Filtration:</strong> Balanced smoke with reduced harshness"
+                                    }
+                                ],
+                                "btn_text": "View BB Full Flavor",
+                                "btn_link": {
+                                    "url": "https://1smokes.ca/bb-cigarettes-online/"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

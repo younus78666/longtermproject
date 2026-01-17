@@ -1,0 +1,44 @@
+{
+    "version": "0.4",
+    "title": "BB Hero Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "sec_hero",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_hero",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "w_hero",
+                            "elType": "widget",
+                            "widgetType": "bb_hero",
+                            "settings": {
+                                "badge_text": "Premium Quality Since Inception",
+                                "title": "BB Cigarettes",
+                                "subtitle": "Experience a <strong>smooth and rich</strong> premium smoking experience crafted with the <strong>highest quality ingredients</strong> for a <strong>consistent and satisfying</strong> taste.",
+                                "btn_1_text": "Buy BB Cigarettes Online",
+                                "btn_1_link": {
+                                    "url": "https://1smokes.ca/bb-cigarettes/"
+                                },
+                                "btn_2_text": "View Products",
+                                "btn_2_link": {
+                                    "url": "https://1smokes.ca/bb-cigarettes/"
+                                },
+                                "show_calculator": "yes",
+                                "carton_price": 37,
+                                "retail_price": 60
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

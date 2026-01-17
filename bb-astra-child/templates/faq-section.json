@@ -1,0 +1,55 @@
+{
+    "version": "0.4",
+    "title": "BB FAQ Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "sec_faq",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_faq",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "w_faq",
+                            "elType": "widget",
+                            "widgetType": "bb_faq",
+                            "settings": {
+                                "section_label": "Information",
+                                "title": "Frequently Asked Questions",
+                                "subtitle": "Common questions about BB Cigarettes answered directly",
+                                "items": [
+                                    {
+                                        "q": "What are BB Cigarettes?",
+                                        "a": "BB Cigarettes are premium tobacco products manufactured with high-quality ingredients, available in Full Flavor, Lights, and Menthol variants. The brand focuses on delivering a smooth and rich smoking experience through robust tobacco blends and precision engineering."
+                                    },
+                                    {
+                                        "q": "Where are BB Cigarettes made?",
+                                        "a": "BB Cigarettes are produced in facilities that meet Canadian manufacturing standards. Production follows quality control protocols to ensure consistency across all product batches."
+                                    },
+                                    {
+                                        "q": "Who makes BB Cigarettes?",
+                                        "a": "BB Brand Cigarettes are manufactured by a dedicated tobacco company specializing in premium cigarette production for the Canadian market."
+                                    },
+                                    {
+                                        "q": "Are BB Cigarettes available in Canada?",
+                                        "a": "Yes. BB Cigarettes are available across Canada through authorized retail locations and online platforms. Customers can purchase BB Full Flavor, BB Lights Cigarettes, and BB Menthol Cigarettes through these channels."
+                                    },
+                                    {
+                                        "q": "What is the difference between BB Full Flavor and BB Lights?",
+                                        "a": "BB Full Flavor delivers the complete robust tobacco experience with full strength and bold taste. BB Lights Cigarettes offer a lighter smoking experience with reduced intensity while maintaining the same quality tobacco blend and smooth inhalation characteristics."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

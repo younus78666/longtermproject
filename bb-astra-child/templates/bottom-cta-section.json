@@ -1,0 +1,37 @@
+{
+    "version": "0.4",
+    "title": "BB Bottom CTA Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "sec_bottom_cta",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_bottom_cta",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "w_bottom_cta",
+                            "elType": "widget",
+                            "widgetType": "bb_cta",
+                            "settings": {
+                                "badge": "Limited Time Offer",
+                                "title": "Experience BB Cigarettes Today",
+                                "text": "Discover the premium smoking experience that defines BB Brand Cigarettes. Available now across Canada.",
+                                "btn_text": "Claim Coupon Code",
+                                "btn_link": {
+                                    "url": "#"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+{
+    "version": "0.4",
+    "title": "BB Home Template",
+    "type": "page",
+    "content": [
+        {
+            "id": "section_hero",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_hero",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "widget_bb_hero",
+                            "elType": "widget",
+                            "widgetType": "bb_hero",
+                            "settings": {
+                                "title": "BB Cigarettes",
+                                "badge_text": "Premium Quality Since Inception",
+                                "subtitle": "Experience a smooth and rich premium smoking experience with BB Cigarettes. Crafted for those who appreciate quality.",
+                                "show_calculator": "yes",
+                                "carton_price": 37,
+                                "retail_price": 60,
+                                "btn_1_text": "Buy BB Cigarettes Online",
+                                "btn_2_text": "View Products"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "section_intro",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_intro",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "widget_bb_intro",
+                            "elType": "widget",
+                            "widgetType": "bb_intro",
+                            "settings": {
+                                "section_label": "Introduction",
+                                "title": "What Makes BB Smokes Stand Out",
+                                "description": "BB Cigarettes are crafted with precision using only the finest tobacco blends. Our commitment to quality ensures a superior smoking experience.",
+                                "features": [
+                                    {
+                                        "feature_title": "Premium Tobacco",
+                                        "feature_desc": "Sourced from the finest growers.",
+                                        "feature_icon": { "value": "fas fa-leaf", "library": "solid" }
+                                    },
+                                    {
+                                        "feature_title": "Rich Flavor",
+                                        "feature_desc": "A taste that stands apart.",
+                                        "feature_icon": { "value": "fas fa-fire", "library": "solid" }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "section_brand",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_brand",
+                    "elType": "column",
+                    "settings": { "_column_size": 100 },
+                    "elements": [
+                        {
+                            "id": "widget_bb_brand",
+                            "elType": "widget",
+                            "widgetType": "bb_brand_stats",
+                            "settings": {
+                                "section_label": "The Brand",
+                                "title": "What Are BB Brand Cigarettes",
+                                "desc": "BB Brand Cigarettes represent a premium smoking product positioned for discerning Canadian smokers who prioritize quality over quantity.",
+                                "stats": [
+                                    { "number": "3", "label": "Product Variants" },
+                                    { "number": "100%", "label": "Quality Controlled" },
+                                    { "number": "Canada", "label": "Wide Availability" }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "section_quality",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_quality",
+                    "elType": "column",
+                    "settings": { "_column_size": 100 },
+                    "elements": [
+                        {
+                            "id": "widget_bb_quality",
+                            "elType": "widget",
+                            "widgetType": "bb_quality",
+                            "settings": {
+                                "title": "Premium Quality & Tobacco Blend",
+                                "items": [
+                                    { "text": "<strong>Smooth Inhalation:</strong> Engineered airflow for effortless draw" },
+                                    { "text": "<strong>Rich Flavour Delivery:</strong> Full-bodied taste from start to finish" },
+                                    { "text": "<strong>Consistent Burn:</strong> Even combustion throughout each cigarette" }
+                                ],
+                                "btn_text": "View BB Full Flavor",
+                                "btn_link": { "url": "#" }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "section_variants",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_variants",
+                    "elType": "column",
+                    "settings": { "_column_size": 100 },
+                    "elements": [
+                        {
+                            "id": "widget_bb_variants",
+                            "elType": "widget",
+                            "widgetType": "bb_variants",
+                            "settings": {
+                                "title": "BB Cigarettes Product Variants",
+                                "products": [
+                                    { 
+                                        "name": "BB Full Flavor", 
+                                        "label": "Signature Blend",
+                                        "desc": "The flagship BB Full Flavour Cigarettes deliver the complete premium smoking experience.",
+                                        "specs": "<ul><li><strong>Profile:</strong> Bold, robust</li><li><strong>Intensity:</strong> Full</li></ul>",
+                                        "btn_text": "View Details"
+                                    },
+                                    { 
+                                        "name": "BB Light", 
+                                        "label": "Smooth Blend",
+                                        "desc": "BB Lights Cigarettes offer a lighter smoking experience without sacrificing flavor integrity.",
+                                        "specs": "<ul><li><strong>Profile:</strong> Smooth, mellow</li><li><strong>Intensity:</strong> Medium</li></ul>",
+                                        "btn_text": "View Details"
+                                    },
+                                    { 
+                                        "name": "BB Menthol", 
+                                        "label": "Cool Refresh",
+                                        "desc": "BB Menthol Cigarettes feature a distinctively minty flavour that combines cooling sensation.",
+                                        "specs": "<ul><li><strong>Profile:</strong> Cool, minty</li><li><strong>Intensity:</strong> Cool</li></ul>",
+                                        "btn_text": "View Details"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "section_benefits",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_benefits",
+                    "elType": "column",
+                    "settings": { "_column_size": 100 },
+                    "elements": [
+                        {
+                            "id": "widget_bb_benefits",
+                            "elType": "widget",
+                            "widgetType": "bb_benefits",
+                            "settings": {
+                                "title": "Why Choose BB Cigarettes",
+                                "items": [
+                                    { "num": "01", "title": "Premium Tobacco Selection", "text": "100% of tobacco leaves undergo quality inspection before processing" },
+                                    { "num": "02", "title": "Consistent Pack Quality", "text": "Each pack contains 20 cigarettes manufactured to identical specifications" },
+                                    { "num": "03", "title": "Three Distinct Variants", "text": "Full Flavor, Lights, and Menthol options to match individual preferences" }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "section_cta",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_cta",
+                    "elType": "column",
+                    "settings": { "_column_size": 100 },
+                    "elements": [
+                        {
+                            "id": "widget_bb_cta",
+                            "elType": "widget",
+                            "widgetType": "bb_cta",
+                            "settings": {
+                                "badge": "Limited Time Offer",
+                                "title": "Get 10% Off Your First Bulk Order",
+                                "text": "Join thousands of satisfied Canadian smokers who have switched to BB Cigarettes.",
+                                "btn_text": "Shop Now",
+                                "btn_link": { "url": "#" }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "page_settings": []
+}

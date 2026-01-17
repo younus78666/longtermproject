@@ -1,0 +1,47 @@
+{
+    "version": "0.4",
+    "title": "BB Brand Stats Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "sec_brand_stats",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_brand_stats",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "w_brand_stats",
+                            "elType": "widget",
+                            "widgetType": "bb_brand_stats",
+                            "settings": {
+                                "section_label": "The Brand",
+                                "title": "What Are BB Brand Cigarettes",
+                                "desc": "<p>BB Brand Cigarettes represent a premium smoking product positioned for discerning Canadian smokers who prioritize quality over quantity. Available across Canada, BB Cigarettes maintain strict quality standards across their entire product line.</p><p>The brand focuses on delivering a <strong>consistent and satisfying</strong> smoking experience through careful tobacco selection and modern manufacturing processes. BB Cigarettes are available at authorized retailers and online platforms serving Natives Smokes Canada markets.</p>",
+                                "stats": [
+                                    {
+                                        "number": "3",
+                                        "label": "Product Variants"
+                                    },
+                                    {
+                                        "number": "100%",
+                                        "label": "Quality Controlled"
+                                    },
+                                    {
+                                        "number": "Canada",
+                                        "label": "Wide Availability"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

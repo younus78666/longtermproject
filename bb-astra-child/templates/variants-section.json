@@ -1,0 +1,65 @@
+{
+    "version": "0.4",
+    "title": "BB Product Variants Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "sec_variants",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_variants",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "w_variants",
+                            "elType": "widget",
+                            "widgetType": "bb_variants",
+                            "settings": {
+                                "section_label": "Product Line",
+                                "title": "BB Cigarettes Product Variants",
+                                "desc": "Three distinct options crafted for different preferences",
+                                "products": [
+                                    {
+                                        "label": "Classic Choice",
+                                        "name": "BB Full Flavor",
+                                        "desc": "The flagship BB Full Flavour Cigarettes deliver the complete <strong>premium smoking experience</strong>. Built for smokers who appreciate bold, uncompromised tobacco character.",
+                                        "specs": "<ul>\n<li><strong>Flavor Profile:</strong> Bold, robust, full-bodied</li>\n<li><strong>Intensity:</strong> Full strength</li>\n<li><strong>Ideal For:</strong> Experienced smokers seeking rich, satisfying taste</li>\n</ul>",
+                                        "btn_text": "View BB Full Flavor",
+                                        "btn_link": {
+                                            "url": "https://1smokes.ca/bb-cigarettes-online/"
+                                        }
+                                    },
+                                    {
+                                        "label": "Refined Balance",
+                                        "name": "BB Lights Cigarettes",
+                                        "desc": "BB Lights Cigarettes offer a <strong>lighter smoking experience</strong> without sacrificing flavor integrity. The same quality tobacco with a gentler approach.",
+                                        "specs": "<ul>\n<li><strong>Flavor Profile:</strong> Smooth, mellow, balanced</li>\n<li><strong>Intensity:</strong> Reduced strength</li>\n<li><strong>Ideal For:</strong> Smokers preferring subtle, refined taste</li>\n</ul>",
+                                        "btn_text": "View BB Lights",
+                                        "btn_link": {
+                                            "url": "https://1smokes.ca/bb-lights-cigarettes/"
+                                        }
+                                    },
+                                    {
+                                        "label": "Cool Refresh",
+                                        "name": "BB Menthol Cigarettes",
+                                        "desc": "BB Menthol Cigarettes feature a <strong>distinctively minty flavour</strong> that combines cooling sensation with premium tobacco quality for a refreshing experience.",
+                                        "specs": "<ul>\n<li><strong>Flavor Profile:</strong> Cool, minty, refreshing</li>\n<li><strong>Intensity:</strong> Medium strength with cooling</li>\n<li><strong>Ideal For:</strong> Those seeking menthol freshness with quality tobacco</li>\n</ul>",
+                                        "btn_text": "View BB Menthol",
+                                        "btn_link": {
+                                            "url": "https://1smokes.ca/bb-canadian-blend-cigarettes-menthol/"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "version": "0.4",
+    "title": "BB Introduction Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "sec_intro",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_intro",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "w_intro",
+                            "elType": "widget",
+                            "widgetType": "bb_intro",
+                            "settings": {
+                                "section_label": "Introduction",
+                                "title": "What Makes BB Smokes Stand Out",
+                                "description": "BB Cigarettes deliver a <strong>full flavoured cigarettes</strong> experience through a meticulous combination of premium tobacco, precision-engineered filters, and quality paper. Each BB Cigarette provides smooth inhalation and rich flavour delivery from first light to last draw.",
+                                "features": [
+                                    {
+                                        "feature_title": "Premium Tobacco",
+                                        "feature_desc": "Robust tobacco blend sourced from select growing regions",
+                                        "feature_icon": {
+                                            "value": "fas fa-star",
+                                            "library": "solid"
+                                        }
+                                    },
+                                    {
+                                        "feature_title": "Precision Filters",
+                                        "feature_desc": "Engineered for optimal draw and smooth finish",
+                                        "feature_icon": {
+                                            "value": "fas fa-clock",
+                                            "library": "solid"
+                                        }
+                                    },
+                                    {
+                                        "feature_title": "Quality Paper",
+                                        "feature_desc": "Slow-burning paper for consistent smoking experience",
+                                        "feature_icon": {
+                                            "value": "fas fa-scroll",
+                                            "library": "solid"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

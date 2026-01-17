@@ -1,0 +1,65 @@
+{
+    "version": "0.4",
+    "title": "BB Benefits Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "sec_benefits",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "col_benefits",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "w_benefits",
+                            "elType": "widget",
+                            "widgetType": "bb_benefits",
+                            "settings": {
+                                "section_label": "Advantages",
+                                "title": "Why Choose BB Cigarettes",
+                                "desc": "Six reasons to experience BB Smokes",
+                                "items": [
+                                    {
+                                        "num": "01",
+                                        "title": "Premium Tobacco Selection",
+                                        "text": "100% of tobacco leaves undergo quality inspection before processing"
+                                    },
+                                    {
+                                        "num": "02",
+                                        "title": "Consistent Pack Quality",
+                                        "text": "Each pack contains 20 cigarettes manufactured to identical specifications"
+                                    },
+                                    {
+                                        "num": "03",
+                                        "title": "Three Distinct Variants",
+                                        "text": "Full Flavor, Lights, and Menthol options to match individual preferences"
+                                    },
+                                    {
+                                        "num": "04",
+                                        "title": "Canadian Availability",
+                                        "text": "Available at authorized retailers and online platforms across Canada"
+                                    },
+                                    {
+                                        "num": "05",
+                                        "title": "Quality Controlled Production",
+                                        "text": "Manufacturing processes monitored at every stage for consistency"
+                                    },
+                                    {
+                                        "num": "06",
+                                        "title": "Secure Packaging",
+                                        "text": "Freshness-sealed packaging maintains product integrity until opening"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

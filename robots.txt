@@ -1,0 +1,13 @@
+# BB Cigarettes - Robots.txt
+# https://bbcigarettes.ca/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bbcigarettes.ca/sitemap.xml
+
+# Disallow admin/private directories if any
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
